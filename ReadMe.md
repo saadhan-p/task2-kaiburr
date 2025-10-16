@@ -71,7 +71,10 @@ Apply the Kubernetes manifests to deploy the Java application.
 kubectl apply -f deployment.yaml
 kubectl apply -f service.yaml
 
-##📸 Verification and Screenshots
+---
+
+```
+#### 📸 Verification and Screenshots
 
 1. Check Running Pods (kubectl get pods)
 You should see one pod for the task-api-deployment and one for mongodb, both with a status of Running.
@@ -86,4 +89,3 @@ You can see the services for both the API and MongoDB. Note the NodePort assigne
 3. Test an Endpoint
 
 ![ENDPOINT TEST SCREENSHOT](put-services.png)# task2-kaiburr
-# task2-kaiburr
