@@ -1,0 +1,16 @@
+# Compiled Java class files and build outputs
+/target/
+*.class
+
+# Log files
+*.log
+
+# IDE and OS specific files
+.vscode/
+.idea/
+.DS_Store
+*.iml
+
+# Screenshot files (if you don't want them in the repo)
+# *.png
+# *.jpg
